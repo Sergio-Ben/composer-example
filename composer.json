@@ -1,0 +1,23 @@
+{
+    "name": "powersera/composer-example-package",
+    "description": "Ec\bxample project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-clause",
+    "authors": [
+        {
+            "name": "Sergio Bar",
+            "email": "serbar@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "powersera\\parser\\":"scr/"
+
+        }
+
+    },
+    "minimum-stability": "stable"
+}
